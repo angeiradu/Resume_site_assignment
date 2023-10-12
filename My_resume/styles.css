@@ -1,0 +1,95 @@
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* Media query for screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+/* Media query for screens larger than 992px */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+body{
+    
+    background-image: url(ange3.jpg);
+   background-repeat: no-repeat; /* Prevent the image from repeating */ /* Scale the image to cover the entire element */
+   background-position:center;
+   background-size: 500px;
+   background-color: rgb(6, 2, 2);
+
+}
+.container {
+    width: 15%;
+    margin-top: -600px;
+    top: 0;
+    padding: 20px;
+    float: right;
+    background-color: black;
+    line-height: 1;
+}
+
+nav ul {
+    list-style:armenian;
+}
+
+nav ul li {
+    margin-bottom: 60px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-style:normal;
+}
+ nav ul li:hover{
+    background-color: rgb(119, 203, 218);
+    border-radius: 5px;
+ }
+
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+img{
+    opacity: 0.5;
+    width: 80%;
+    height: 40%;
+}
+
+h2{
+    position: absolute;
+    top: 50%; /* Adjust vertical position */
+    left: 12%; /* Adjust horizontal position */
+    transform: translate(-50%, -50%);
+    font-size: 45px; /* Adjust font size */
+    font-weight:bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(12, 184, 175); /* Text color */
+    text-align: center;
+    padding: 20px; /* Padding around the text */
+}
+
+h5{
+    position: absolute;
+    top: 70%; /* Adjust vertical position */
+    left: 14%; /* Adjust horizontal position */
+    transform: translate(-50%, -50%);
+    font-size: 35px; /* Adjust font size */
+    font-weight:bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(226, 93, 11); /* Text color */
+    text-align: center;
+    padding: 20px; /* Padding around the text */ 
+    font-style: oblique;
+}
