@@ -1,26 +1,172 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" viewport-fit="cover">
-        <title>Ange's Resume</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <img src="soft.jpeg">
-        <h2>I'm<br>MARIE ANGE<br>IRADUKUNDA</h2>
-        <h5>SOFTWARE ENGINEER</h3>
-            <nav>
-                <div class="container">
-                    <ul>
-                        <li><a href="#about">ABOUT ME</a></li>
-                        <li><a href="#Education">EDUCATION</a></li>
-                        <li><a href="#Skills">SKILLS</a></li>
-                        <li><a href="#Experience">EXPERIENCE</a></li>
-                        <li><a href="#Projects">PROJECTS</a></li>
-                        <li><a href="#Contact">CONTACT</a></li>
-                    </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ange's Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0cb8e41073.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EDUCATION</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">EXPERIENCE</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hey, I'am<br>MARIE <span>ANGE</span><br> IRADUKUNDA</h1>
+            <P><span>WEB DEVELOPER</span></P>
+        </div>
+       </div> 
+    </div>
+    <!-----------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.jpg">
                 </div>
-            </nav>
-    </body>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me.</h1>
+                    <p class="about-par">I am MARIE ANGE IRADUKUNDA, with a deep passion for web development, eager to apply my knowledge and skills in real-world scenarios.<br> I am always enthusiastic about learning new technologies. My strong analytical mindset and attention to detail drive my desire to create a seamless and user-friendly web experience.<br>
+                       I possess a solid foundation in programming languages such as JavaScript, HTML, and CSS. Additionally, I have hands-on experience with frameworks like React and Node.js.<br><br> My interest in web technologies extends to responsive design, user experience optimization, and mobile-first development. I am also keen on exploring the intersections of technology and creativity, constantly seeking innovative solutions to complex problems.
+                    </p>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Education-------->
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title">EDUCATION.</h1>
+            <div class="education-info">
+                <div>
+                    <h2>BSc Software Engineering</h2>
+                    <h3><i class="fa-solid fa-school"></i>
+                    <span class="school">African Leadership University</span></h3>
+                    <p><i class="fa-solid fa-calendar-days"></i>
+                    <span class="calendar">2022-ongoing</span></p>
+                    <p><i class="fa-solid fa-location-dot fa-beat-fade"></i>
+                    <span class="location">Kigali, Rwanda</span></p>   
+                </div>
+
+                <div>
+                    <h2>High School Diploma</h2>
+                    <h4 class="list"><ul><li>Mathematics, Computer science and economics</li></ul></h4>
+                    <h3><i class="fa-solid fa-school"></i>
+                        <span class="school">New Explores Girls Academy</span></h3>
+                        <p><i class="fa-solid fa-calendar-days"></i>
+                        <span class="calendar">2018-2021</span></p>
+                        <p><i class="fa-solid fa-location-dot fa-beat-fade"></i>
+                        <span class="location">Bugesera, Rwanda</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Skills----------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title1">SKILLS.</h1>
+            <div class="skills-info">
+                <div>
+                    <i class="fa-brands fa-html5 fa-beat-fade fa-2xl" style="color: #f40a77;"></i>                  
+                    <h2>HTML</h2>
+                    <div class="rate">
+                      <div class="circle-wrap">
+                        <div class="inside-circle">95%</div>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt fa-beat-fade fa-2xl" style="color: #f40a77;"></i>                  
+                    <h2>CSS</h2>
+                    <div class="rate">
+                      <div class="circle-wrap">
+                        <div class="inside-circle">88%</div>
+                  </div>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js fa-beat-fade fa-2xl" style="color:#f40a77;"></i>                 
+                    <h2>JavaScript</h2>
+                    <div class="rate">
+                      <div class="circle-wrap">
+                        <div class="inside-circle">85%</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="shape">
+                    <i class="fa-brands fa-python fa-beat-fade fa-2xl" style="color: #f40a77;"></i>                 
+                    <h2>PYTHON</h2>
+                    <div class="rate">
+                      <div class="circle-wrap">
+                        <div class="inside-circle">70%</div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------Experience--------------->
+    <div id="experience">
+      <div class="container">
+          <h1 class="sub-title2">EXPERIENCE.</h1>
+          <div class="experience-info">
+            <h3>Internship</h3>
+            <ul>
+              <li>fbfjvbfjvbjbvjbvjbvjgtg</li>
+              <li>gjnbjnbgjnbjgnbgjkbngjbnb</li>
+              <li>gjbngjbgjbjgbnjgbtbbuhtuhgtu</li>
+            </ul>
+            <h3>Volunteer</h3>
+            <ul>
+              <li>fbfjvbfjvbjbvjbvjbvjgtg</li>
+              <li>gjnbjnbgjnbjgnbgjkbngjbnb</li>
+              <li>gjbngjbgjbjgbnjgbtbbuhtuhgtu</li>
+            </ul>
+            <ul>
+              <h3>Student Developer Club</h3>
+              <li>fbfjvbfjvbjbvjbvjbvjgtg</li>
+              <li>gjnbjnbgjnbjgnbgjkbngjbnb</li>
+              <li>gjbngjbgjbjgbnjgbtbbuhtuhgtu</li>
+            </ul>
+          </div>
+      </div>
+    </div>  
+    
+    <!----------------------Projects--------------->
+    <div id="projects">
+      <div class="container">
+          <h1 class="sub-title3">PROJECTS.</h1>
+          <div class="projects-info"></div>
+      </div>
+    </div>
+
+    <!----------------------Contact--------------->
+    <div id="contact">
+      <div class="container">
+          <h1 class="sub-title3">CONTACT INFO.</h1>
+          <div class="contact-info">
+    <script src="script.js"></script>
+    <script>
+        var sidem = document.getElementById("sidemenu");
+        function openmenu(){
+            sidem.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidem.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
