@@ -307,12 +307,65 @@ nav ul li a:hover::after{
     padding: 50px 0;
     background: wheat;
 }
-
-/*------------------css for small screens------------------*/
-
+.sub-title4{
+    font-size: 50px;
+    font-weight: 600;
+    color: red;
+    border-bottom-width:  solid red;
+}
 nav .fa-solid{
     display: none;
 }
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #592442;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+    color: black;
+}
+.contact-left p i{
+    color: #8f1d58;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #592442;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: rgb(52, 11, 233);
+    transform: translateY(-4px);
+}
+.contact-right button:hover{
+    color: black;
+    background-color:chocolate;
+}
+
+/*------------------css for small screens------------------*/
 
 
 @media only screen and (max-width:600px){
