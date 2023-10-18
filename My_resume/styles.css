@@ -250,6 +250,24 @@ nav ul li a:hover::after{
     margin-top: 50px;
     border-block-width: 10px;
 }
+.experience-info h4{
+    color: rgb(249, 249, 251);
+}
+.experience-info h3{
+    color: rgb(6, 3, 69);
+    padding: 10px;
+}
+.experience-info p{
+    padding: 2px;
+}
+
+.Volunt a{
+    color: green;
+}
+.experience-info:hover{
+    color: black;
+    background-color: rgb(44, 35, 35);
+}
 
 /*----------------------------projects------------------*/
 #projects{
@@ -360,7 +378,16 @@ nav .fa-solid{
     .skills-info i{
         font-size: 100px;
     }
-
+    .experience-info h4,
+    .experience-info p,
+    .experience-info p i{
+        font-size: 13px;
+    }
+    .experience-info h3{
+        font-size: 15px;
+    }
 }
+
+
 
 
