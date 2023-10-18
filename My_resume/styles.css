@@ -281,6 +281,26 @@ nav ul li a:hover::after{
     border-bottom-width:  solid red;
     text-align: center;
 }
+.projects-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    border-block-width: 10px;
+}
+.projects-info div h2{
+    color: aqua;
+    padding: 55px;
+}
+.projects-info div i{
+    font-size: 150px;
+    padding: 30px;
+}
+.projects-info div h5{
+     font-size: 17px;
+}
+
+
 
 /*----------------------------contact------------------*/
 #contact{
