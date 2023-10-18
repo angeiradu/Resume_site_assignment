@@ -4,6 +4,9 @@
     font-family:'poppins', sans-serif;
     box-sizing:border-box ;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background: #080808;
@@ -74,10 +77,8 @@ nav ul li a:hover::after{
 #about{
     padding: 8px 0;
     color: #ababab;
-    background:powderblue;
     background-position: center;
     background-size: cover;
-    background-image: url(pic1.jpg);
 }
 .row{
     display: flex;
@@ -172,8 +173,7 @@ nav ul li a:hover::after{
 
 /*------------skills----------------*/
 #skills{
-    padding: 50px 0; 
-    background: url(skill.jpg);  
+    padding: 50px 0;  
 }
 .skills-info{
     display: grid;
@@ -242,6 +242,13 @@ nav ul li a:hover::after{
     border-bottom-width:  solid red;
     text-align: center;
 
+}
+.experience-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    border-block-width: 10px;
 }
 
 /*----------------------------projects------------------*/
@@ -349,6 +356,9 @@ nav .fa-solid{
     }
     .education-info div{
         flex-basis: 100%;
+    }
+    .skills-info i{
+        font-size: 100px;
     }
 
 }
